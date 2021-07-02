@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-01 14:23:34
+ * @LastEditTime: 2021-07-02 13:59:18
  * @FilePath: \my-app\src\App.js
  */
 import './App.css';
@@ -10,7 +10,8 @@ import './App.css';
 // import MemoTest from './pages/MemoTest';
 // import UseReducerTest from './pages/UseReducerTest'
 // import UseLayoutEffect from './pages/UseLayoutEffect';
-import MousePosition from './pages/MousePosition';
+// import MousePosition from './pages/MousePosition';
+import ParentCom from './pages/memo/ParentCom';
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
 
       {/* <UseLayoutEffect /> */}
 
-      <MousePosition />
+      {/* <MousePosition /> */}
+
+      <ParentCom />
     </div>
   );
 }
