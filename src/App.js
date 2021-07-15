@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-15 09:15:03
+ * @LastEditTime: 2021-07-15 09:47:09
  * @FilePath: \my-app\src\App.js
  */
 import './App.css';
@@ -14,7 +14,8 @@ import './App.css';
 // import ParentCom from './pages/memo/ParentCom';
 // import ParentComTwo from './pages/memo/ParentComTwo';
 // import ParentComThree from './pages/memo/ParentComThree';
-import JsxSource from './pages/jsxSource/index';
+// import JsxSource from './pages/jsxSource/index';
+import StateSouce from './pages/state/index';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <ParentComThree /> */}
 
       {/* jsx 解析原理 */}
-      <JsxSource />
+      {/* <JsxSource /> */}
+      <StateSouce />
     </div>
   );
 }
