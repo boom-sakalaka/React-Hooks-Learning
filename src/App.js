@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-15 10:43:52
+ * @LastEditTime: 2021-07-21 10:47:08
  * @FilePath: \my-app\src\App.js
  */
 import './App.css';
@@ -16,7 +16,8 @@ import './App.css';
 // import ParentComThree from './pages/memo/ParentComThree';
 // import JsxSource from './pages/jsxSource/index';
 // import StateSouce from './pages/state/index';
-import PropsSource from './pages/props/index';
+// import PropsSource from './pages/props/index';
+import Rform from './pages/Rform';
 
 function App() {
   return (
@@ -38,9 +39,12 @@ function App() {
       {/* <StateSouce /> */}
 
       {/* porps的原理相关 */}
-      <PropsSource>
+      {/* <PropsSource>
         <div>123</div>
-      </PropsSource>
+      </PropsSource> */}
+
+      {/* react 表单 */}
+      <Rform />
     </div>
   );
 }
