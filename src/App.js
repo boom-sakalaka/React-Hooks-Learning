@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-21 10:47:08
+ * @LastEditTime: 2021-07-21 15:18:48
  * @FilePath: \my-app\src\App.js
  */
 import './App.css';
@@ -17,7 +17,9 @@ import './App.css';
 // import JsxSource from './pages/jsxSource/index';
 // import StateSouce from './pages/state/index';
 // import PropsSource from './pages/props/index';
-import Rform from './pages/Rform';
+// import Rform from './pages/Rform';
+
+import BigData from './pages/bigData';
 
 function App() {
   return (
@@ -44,7 +46,10 @@ function App() {
       </PropsSource> */}
 
       {/* react 表单 */}
-      <Rform />
+      {/* <Rform /> */}
+
+      {/* 大数据时间分片 */}
+      <BigData />
     </div>
   );
 }
