@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-21 15:18:48
+ * @LastEditTime: 2021-07-22 14:06:35
  * @FilePath: \my-app\src\App.js
  */
 import './App.css';
@@ -19,7 +19,9 @@ import './App.css';
 // import PropsSource from './pages/props/index';
 // import Rform from './pages/Rform';
 
-import BigData from './pages/bigData';
+// import BigData from './pages/bigData';
+
+import ReactRouterTest from './pages/mini-router/index.js';
 
 function App() {
   return (
@@ -49,7 +51,9 @@ function App() {
       {/* <Rform /> */}
 
       {/* 大数据时间分片 */}
-      <BigData />
+      {/* <BigData /> */}
+
+      <ReactRouterTest />
     </div>
   );
 }
