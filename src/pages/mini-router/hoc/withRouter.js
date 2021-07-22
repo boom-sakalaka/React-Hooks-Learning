@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import hoistStatics from 'hoist-non-react-statics';
 
-import { RouterContext } from '../component/Router';
+import { RouterContext } from '../components/Router';
 
 export default function withRouter(Component) {
   const WrapComponent = props => {
