@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-22 14:17:49
+ * @LastEditTime: 2021-07-26 15:03:21
  * @FilePath: \my-app\src\App.js
  *  学习链接  https://juejin.cn/book/6945998773818490884/section/6959910136202657823
  */
@@ -21,7 +21,8 @@ import './App.css';
 // import Rform from './pages/Rform';
 // import BigData from './pages/bigData';
 
-import ReactRouterTest from './pages/mini-router/index.js';
+// import ReactRouterTest from './pages/mini-router/index.js';
+import FormData from './pages/FormData/index';
 
 function App() {
   return (
@@ -54,7 +55,10 @@ function App() {
       {/* <BigData /> */}
 
       {/* 实现react的  mini-router */}
-      <ReactRouterTest />
+      {/* <ReactRouterTest /> */}
+
+      {/* 自定义表格组件 */}
+      <FormData />
     </div>
   );
 }
