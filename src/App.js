@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-26 15:03:21
+ * @LastEditTime: 2021-07-27 10:41:05
  * @FilePath: \my-app\src\App.js
  *  学习链接  https://juejin.cn/book/6945998773818490884/section/6959910136202657823
  */
@@ -58,7 +58,7 @@ function App() {
       {/* <ReactRouterTest /> */}
 
       {/* 自定义表格组件 */}
-      <FormData />
+      {/* <FormData /> */}
     </div>
   );
 }

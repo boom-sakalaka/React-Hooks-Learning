@@ -2,11 +2,10 @@
  * @Author: GZH
  * @Date: 2021-07-23 11:56:44
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-26 15:04:14
+ * @LastEditTime: 2021-07-26 15:24:06
  * @FilePath: \my-app\src\pages\FormData\index.js
  * @Description:
  */
-
 import React, { useRef, useEffect } from 'react';
 
 import Form, { Input, Select } from './form';
