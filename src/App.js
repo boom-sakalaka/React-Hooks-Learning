@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-07-27 10:41:05
+ * @LastEditTime: 2021-08-04 16:44:18
  * @FilePath: \my-app\src\App.js
  *  学习链接  https://juejin.cn/book/6945998773818490884/section/6959910136202657823
  */
@@ -12,7 +12,7 @@ import './App.css';
 // import UseReducerTest from './pages/UseReducerTest'
 // import UseLayoutEffect from './pages/base/UseLayoutEffect';
 // import MousePosition from './pages/MousePosition';
-// import ParentCom from './pages/memo/ParentCom';
+import ParentCom from './pages/memo/ParentCom';
 // import ParentComTwo from './pages/memo/ParentComTwo';
 // import ParentComThree from './pages/memo/ParentComThree';
 // import JsxSource from './pages/jsxSource/index';
@@ -22,7 +22,7 @@ import './App.css';
 // import BigData from './pages/bigData';
 
 // import ReactRouterTest from './pages/mini-router/index.js';
-import FormData from './pages/FormData/index';
+// import FormData from './pages/FormData/index';
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
       {/* <UseReducerTest /> */}
       {/* <UseLayoutEffect /> */}
       {/* <MousePosition /> */}
-      {/* <ParentCom /> */}
+      <ParentCom />
       {/* <ParentComThree /> */}
 
       {/* jsx 解析原理 */}

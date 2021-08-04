@@ -1,3 +1,11 @@
+/*
+ * @Author: GZH
+ * @Date: 2021-07-22 13:54:19
+ * @LastEditors: GZH
+ * @LastEditTime: 2021-07-28 11:45:29
+ * @FilePath: \my-app\src\pages\mini-router\components\Route.js
+ * @Description:
+ */
 import React, { useContext } from 'react';
 import { matchPath } from 'react-router';
 import { RouterContext } from './Router';
@@ -7,6 +15,7 @@ function Route(props) {
   /* 获取location对象 */
   const location = props.location || context.location;
   /* 是否匹配当前路由，如果父级有switch，就会传入computedMatch来精确匹配渲染此路由 */
+
   const match = props.computedMatch
     ? props.computedMatch
     : props.path
