@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-06-30 15:54:49
  * @LastEditors: GZH
- * @LastEditTime: 2021-08-04 16:44:18
+ * @LastEditTime: 2021-09-08 12:12:19
  * @FilePath: \my-app\src\App.js
  *  学习链接  https://juejin.cn/book/6945998773818490884/section/6959910136202657823
  */
@@ -10,7 +10,7 @@ import './App.css';
 // import Counter from './pages/Counter';
 // import MemoTest from './pages/MemoTest';
 // import UseReducerTest from './pages/UseReducerTest'
-// import UseLayoutEffect from './pages/base/UseLayoutEffect';
+import UseLayoutEffect from './pages/base/UseLayoutEffect';
 // import MousePosition from './pages/MousePosition';
 import ParentCom from './pages/memo/ParentCom';
 // import ParentComTwo from './pages/memo/ParentComTwo';
@@ -32,9 +32,9 @@ function App() {
       {/* <MemoTest /> */}
       {/* UseReducer 的使用 类似于redux */}
       {/* <UseReducerTest /> */}
-      {/* <UseLayoutEffect /> */}
+      <UseLayoutEffect />
       {/* <MousePosition /> */}
-      <ParentCom />
+      {/* <ParentCom /> */}
       {/* <ParentComThree /> */}
 
       {/* jsx 解析原理 */}
